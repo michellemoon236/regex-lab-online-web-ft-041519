@@ -1,7 +1,7 @@
 require 'pry'
 
 def starts_with_a_vowel?(word)
-  if word.start_with?(/[aeiou]/)
+  if word.start_with?(/[aeiou]/) == true
     binding.pry
     true 
   else
